@@ -16,6 +16,7 @@ This repository contains the implementation for three NoSQL database tasks. It c
 pip install pymongo cassandra-driver neo4j
 ```
 1️⃣ 𝙈𝙤𝙣𝙜𝙤𝘿𝘽 𝙏𝙖𝙨𝙠 (𝙇𝙤𝙘𝙖𝙡 𝙄𝙣𝙨𝙩𝙖𝙡𝙡𝙖𝙩𝙞𝙤𝙣)
+
 Setup & Run:
 Make sure your MongoDB Service is running locally (default port 27017).
 
@@ -47,6 +48,7 @@ db.players.aggregate([
 ]).pretty();
 ```
 2️⃣ 𝑪𝒂𝒔𝒔𝒂𝒏𝒅𝒓𝒂 𝑻𝒂𝒔𝒌
+
 Setup & Run:
 Run Cassandra via Docker:
 
@@ -88,6 +90,7 @@ PRIMARY KEY (grade, department, student_id);
 SELECT * FROM students_by_grade WHERE grade > 3.0 ALLOW FILTERING;
 ```
 3️⃣ 𝑵𝒆𝒐4𝒋 𝑻𝒂𝒔𝒌
+
 🔹 Setup & Run
 Create a Local DBMS in Neo4j Desktop and click Start.
 
