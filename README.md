@@ -1,4 +1,4 @@
-# 🚀 NoSQL Database Tasks (MongoDB, Cassandra, Neo4j)
+#  NoSQL Database Tasks (MongoDB, Cassandra, Neo4j)
 
 This repository contains the implementation for three NoSQL database tasks. It covers connecting via Python drivers, performing CRUD operations, and executing specific Shell/CMD commands.
 
