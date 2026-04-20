@@ -105,3 +105,7 @@ Open Neo4j Browser and run:
 ```Cypher
 MATCH (n) RETURN n
 ```
+for relations 
+```Cypher
+MATCH (n)-[r]->(m) RETURN n, r, m
+```
